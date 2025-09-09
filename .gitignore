@@ -1,39 +1,33 @@
-## Build output
+# Build results
 bin/
 obj/
 out/
 
-## Debug / release files
-*.pdb
-*.exe
-*.dll
-*.log
-*.vspscc
-*.vssscc
-*.cache
-*.suo
+# User-specific files
 *.user
+*.suo
 *.userosscache
 *.sln.docstates
 
-## NuGet
-*.nupkg
-*.snupkg
-packages/
-.nuget/
+# Visual Studio Code settings
+.vscode/
 
-## Visual Studio
-.vs/
-*.dbmdl
-*.bak
-*.ldf
-*.mdf
-
-## JetBrains Rider
+# Rider IDE settings
 .idea/
-*.sln.iml
 
-## Others
-*.tmp
-*.swp
-*.orig
+# Database files (voor lokale databases)
+*.mdf
+*.ldf
+*.sqlite
+*.db
+
+# NuGet
+*.nupkg
+packages/
+*.snupkg
+
+# Logs
+*.log
+
+# Publish output
+publish/
